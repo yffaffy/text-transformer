@@ -40,6 +40,10 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 
 The app will be running at [http://localhost:5173](http://localhost:5173) by default. Open this URL in your browser to use the Text Transformer.
 
+## Changelog
+
+- v1.0.0 (2024-11-2)
+
 ## License
 
 This project is licensed under the MIT License.
