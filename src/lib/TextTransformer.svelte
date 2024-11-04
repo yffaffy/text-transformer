@@ -31,6 +31,11 @@
             .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
             .join(' ');
           break;
+        case 'removeDuplicates':
+          text = text.split(' ')
+            .filter((word, index, array) => array.indexOf(word) === index)
+            .join(' ');
+          break;
         case 'clear':
           text = '';
           return; // Don't copy to clipboard when clearing
@@ -57,6 +62,9 @@
       </Button>
       <Button variant="secondary" on:click={() => transformText('capitalize')}>
         Capitalize
+      </Button>
+      <Button variant="secondary" on:click={() => transformText('removeDuplicates')}>
+        🚫 Duplicates
       </Button>
       <Button variant="danger" on:click={() => transformText('clear')}>
         Clear
