@@ -2,7 +2,15 @@
 
 A simple Svelte application that transforms pasted text with uppercase, lowercase, and capitalization functions. The transformed text is automatically copied to your clipboard, allowing for quick and easy text formatting.
 
-![Text Transformer Screenshot](./screenshot.png)
+![Text Transformer Screenshot](https://clicky-media.s3.us-east-1.amazonaws.com/public/tt-screenshot-v1_1.png)
+
+## Features
+
+- **Uppercase**: Converts all text to uppercase.
+- **Lowercase**: Converts all text to lowercase.
+- **Capitalize**: Capitalizes the first letter of each word.
+- **Remove Duplicates**: Removes duplicate words (or hashtags.)
+- **Clear**: Clears the input field.
 
 ## Getting Started
 
@@ -42,7 +50,11 @@ The app will be running at [http://localhost:5173](http://localhost:5173) by def
 
 ## Changelog
 
-- v1.0.0 (2024-11-2)
+### [v1.1] - 2024-11-4
+
+- Adds a button to remove duplicates from the text.
+
+### [v1.0] - 2024-11-2
 
 ## License
 
